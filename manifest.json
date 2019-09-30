@@ -22,7 +22,9 @@
   "content_scripts": [
     {
       "matches": [
-        "http://jenkins.bix.ru/*"
+        "http://jenkins.bix.ru/*",
+        "http://*",
+        "file:///*"
       ],
       "js": [
         "src/inject/inject.js"
